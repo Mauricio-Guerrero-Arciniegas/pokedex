@@ -1,0 +1,204 @@
+.App {
+  font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .btn-primary {
+    background-color: #D93F3F;
+    border-color: #D93F3F;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 2px;
+  }
+
+  .inputpok {
+    width: 17rem;
+    height: 1.6rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 2px;
+    
+  }
+  
+  .welcome1 {
+    Width: 500px;
+    Height: 30px;
+    color: #D93F3F;
+    font-family: "Inter";
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 60.51px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .welcome2 {
+    color: #D93F3F;
+  }
+
+  .pokedeximg {
+    margin: 3rem 3rem;
+    text-align: center;
+    width: 500px;
+    height: 90px;
+  }
+  
+  .begin {
+    width: 500px;
+    height: 60px;
+    margin: 2rem auto;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .login-input {
+    align-items: center;
+    margin: auto;
+    height: 2.3rem;
+    width: 20rem;
+    border-style: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .login-button {
+    background-color: #D93F3F;
+    border-color: #D93F3F;
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    align-items: center;
+    margin: auto auto;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .login {
+    text-align: center;
+  }
+
+  .rectangle-red {
+    height: 50px;
+    width: 100%;
+    background-color: #D93F3F;
+    margin: 0;
+    margin-top: 9.8rem;
+  }
+
+  .rectangle-black {
+    height: 47px;
+    width: 100%;
+    background-color: #0C0C0C;
+    margin: 0;
+    display: flex;
+  }
+
+  .circle-1 {
+    position: absolute;
+    margin-left: 45%;
+    top: 555px;
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+    background-color: #0C0C0C;
+  }
+
+  .circle-2 {
+    position: absolute;
+    right: 7px;
+    top: -36px;
+    width: 55px;
+    height: 55px;
+    border-radius: 150px;
+    background-color: white;
+  }
+
+  .circle-3 {
+    position: absolute;
+    right: 7px;
+    top: -78px;
+    width: 40px;
+    height: 40px;
+    border-radius: 150px;
+    background-color: #0C0C0C;
+  }
+
+  .pokedeximg-2 {
+    position: absolute;
+    width: 432px;
+    height: 76px;
+    top: 16px;
+    left: 70px;
+  }
+
+  .rectangle2-red {
+    width: 100%;
+    height: 70px;
+    background-color: #D93F3F;
+    margin: 0;
+    
+  }
+
+  .rectangle2-black {
+    height: 35px;
+    width: 100%;
+    background-color: #0C0C0C;
+    margin: 0;
+    display: flex;
+  }
+
+  .welcome-2 {
+    padding: 2rem 4rem;
+    width: 882px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .inputpok {
+    margin-left: 4rem ;
+    width: 500px;
+    height: 49px;
+    font-size: 18px;
+    padding: 0rem 1rem;
+  }
+
+  .btn-primary {
+    width: 200px;
+    height: 50px;
+    font-family: "roboto";
+    font-weight: 500px;
+    font-size: 18px;
+   
+  }
+
+  .select {
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: 0rem;
+  }
+
+  .imgball {
+    position: absolute;
+    top: 550px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .pokemoncard {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    
+    flex-direction: column;
+  }
+
+  .ball {
+    position: relative;
+  }
