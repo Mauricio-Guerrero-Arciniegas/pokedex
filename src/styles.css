@@ -170,6 +170,10 @@
     justify-content: center;
   }
 
+.initial {
+  top: 3rem;
+}
+
  .pokemoncard {
   
   display: flex;
@@ -186,8 +190,9 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+}
 
- }
+
 
  .pokemonimg {
    width: 200px;
@@ -214,19 +219,40 @@
    height: 50px;
  }
 
+.general {
+  display: block;
+  width: 100%;
+  top: 23rem;
+}
+
+.gradient {
+  
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(#7ec6c5, #abdac6, #cae099);
+  
+}
+
  .detailcard {
+   position: relative;
    width: 80%;
    height: auto;
    background-color: #ffffff;
    justify-content: center;
-   
+   align-items: center;
    text-align: center;
-   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
-   margin-top: 4rem ;
-   margin-left: 2rem;
+   box-shadow: 1px 1px 3px 6px rgba(0, 0, 0, 0.15);
+   margin-top: 6rem ;
+   margin-left: 7rem;
    text-transform:uppercase;
+   
  }
 
+ .detailimg {
+  position: relative;
+  bottom: 5rem;
+}
  .title {
   text-transform:capitalize;
   font-family: "roboto";
@@ -281,24 +307,42 @@
 .type-abilities {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 
 }
 
 .text {
   display: flex;
   justify-content: center;
-  gap: 10rem;
+  gap: 15rem;
   font-family: "roboto";
-  
+  font-weight: lighter;
 }
 
 .grass,
 .poison,
 .overgrow,
 .chlorophyll {
-  width: 15rem;
+ width: auto;
+ padding: 0rem 1rem ;
  border-style: solid;
+ border-color: #416460;
+ color: #416460;
+ border-radius: 10px;
+ background-color: antiquewhite;
 }
 
+.name {
+  font-family: "roboto";
+  color: #416460;
+  font-weight: 500;
+  text-transform: capitalize;
+}
 
+.stats {
+  display: flex;
+
+  margin-top: 2rem;
+  text-transform: capitalize;
+  display: inline-block;
+}
