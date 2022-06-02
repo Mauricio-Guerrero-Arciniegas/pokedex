@@ -15,7 +15,7 @@ const Pokedex = () => {
 
   useEffect(() => {
     axios
-      .get("https://pokeapi.co/api/v2/pokemon?offset=0&limit=30")
+      .get("https://pokeapi.co/api/v2/pokemon?offset=0&limit=100")
       .then((res) => setPokemons(res.data.results));
 
     axios
@@ -33,7 +33,7 @@ const Pokedex = () => {
 
 
   const [ page, setPage ] = useState(1);
-  const pokemonNumbers = 5;
+  const pokemonNumbers = 9;
   const lastIndex = pokemonNumbers*page;
   const firstIndex = lastIndex-pokemonNumbers;
   const pokemonPaginated = pokemons.slice(firstIndex, lastIndex);
@@ -46,14 +46,14 @@ const Pokedex = () => {
 
   return (
     <div>
-      <h1 className="rectangle2-red">.</h1>
+      <div className="rectangle2-red"></div>
       <img
         className="pokedeximg-2"
         src="https://i.pinimg.com/originals/bd/cd/20/bdcd20f5411ee5785889542d303ad4cb.png"
         alt=""
         width="200px"
       />
-      <h1 className="rectangle2-black">.</h1>
+      <div className="rectangle2-black"></div>
       <img className="ball" src=".\images\pokeball.png" alt="" />
       <div className="welcome-2">
         <p>

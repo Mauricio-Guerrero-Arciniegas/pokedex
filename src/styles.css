@@ -1,190 +1,173 @@
 .App {
   font-family: 'Inter', sans-serif;
-    text-align: center;
-    margin: 0;
-  }
-  
-  .btn-primary {
-    background-color: #D93F3F;
-    border-color: #D93F3F;
-    color: white;
-    width: 7rem;
-    height: 2rem;
-    border-radius: 2px;
-  }
+  text-align: center;
+  margin: 0;
+}
 
-  .inputpok {
-    width: 17rem;
-    height: 1.6rem;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-    border: none;
-    border-radius: 2px;
-    
-  }
-  
-  .welcome1 {
-    Width: 500px;
-    Height: 30px;
-    color: #D93F3F;
-    font-family: "Inter";
-    font-weight: 700px;
-    font-size: 40px;
-    line-height: 60.51px;
-    text-align: center;
-    margin: auto;
-  }
+.btn-primary {
+  background-color: #D93F3F;
+  border-color: #D93F3F;
+  color: white;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 2px;
+}
 
-  .welcome2 {
-    color: #D93F3F;
-  }
+.inputpok {
+  width: 17rem;
+  height: 1.6rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 2px;
+}
 
-  .pokedeximg {
-    margin: 3rem 3rem;
-    text-align: center;
-    width: 500px;
-    height: 90px;
-  }
-  
-  .begin {
-    width: 500px;
-    height: 60px;
-    margin: 2rem auto;
-    font-family: "Inter";
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-  }
+.welcome1 {
+  Width: 500px;
+  Height: 30px;
+  color: #D93F3F;
+  font-family: "Inter";
+  font-weight: 700px;
+  font-size: 40px;
+  line-height: 60.51px;
+  text-align: center;
+  margin: auto;
+}
 
-  .login-input {
-    align-items: center;
-    margin: auto;
-    height: 2.3rem;
-    width: 20rem;
-    border-style: none;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-  }
+.welcome2 {
+  color: #D93F3F;
+}
 
-  .login-button {
-    background-color: #D93F3F;
-    border-color: #D93F3F;
-    color: white;
-    width: 8rem;
-    height: 2.5rem;
-    align-items: center;
-    margin: auto auto;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-  }
+.pokedeximg {
+  margin: 3rem 3rem;
+  text-align: center;
+  width: 500px;
+  height: 90px;
+}
 
-  .login {
-    text-align: center;
-  }
+.begin {
+  width: 500px;
+  height: 60px;
+  margin: 2rem auto;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
 
-  .rectangle-red {
-    height: 50px;
-    width: 100%;
-    background-color: #D93F3F;
-    margin: 0;
-    margin-top: 9.8rem;
-  }
+.login-input {
+  align-items: center;
+  margin: auto;
+  height: 2.3rem;
+  width: 20rem;
+  border-style: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
 
-  .rectangle-black {
-    height: 47px;
-    width: 100%;
-    background-color: #0C0C0C;
-    margin: 0;
-    display: flex;
-  }
+.login-button {
+  background-color: #D93F3F;
+  border-color: #D93F3F;
+  color: white;
+  width: 8rem;
+  height: 2.5rem;
+  align-items: center;
+  margin: auto auto;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
 
-  .pokedeximg-2 {
-    position: absolute;
-    width: 432px;
-    height: 76px;
-    top: 16px;
-    left: 70px;
-  }
+.login {
+  text-align: center;
+}
 
-  .rectangle2-red {
-    width: 100%;
-    height: 70px;
-    background-color: #D93F3F;
-    margin: 0;
-    color: #D93F3F;
-    
-  }
+.rectangle-red {
+  width: 100%;
+  height: 50px;
+  background-color: #D93F3F;
+  margin: 0;
+  margin-top: 9rem;
+}
 
-  .rectangle2-black {
-    height: 35px;
-    width: 100%;
-    background-color: #0C0C0C;
-    margin: 0;
-    display: flex;
-    color: #0C0C0C;
-  }
+.rectangle-black {
+  width: 100%;
+  height: 30px;
+  background-color: #0C0C0C;
+  margin: 0;
+  display: flex;
+}
 
-  .welcome-2 {
-    padding: 2rem 4rem;
-    width: 882px;
-    height: 40px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-  }
+.pokedeximg-2 {
+  display: flex;
+  position: absolute;
+  width: 332px;
+  height: 56px;
+  top: 4.5rem;
+  margin-left: 4rem;
+}
 
-  .inputpok {
-    margin-left: 4rem ;
-    width: 500px;
-    height: 49px;
-    font-size: 18px;
-    padding: 0rem 1rem;
-    
-  }
+.rectangle2-red {
+  width: 100%;
+  height: 70px;
+  background-color: #D93F3F;
+}
 
-  .btn-primary {
-    width: 200px;
-    height: 50px;
-    font-family: "roboto";
-    font-weight: 500px;
-    font-size: 18px;
-   
-  }
+.rectangle2-black {
+  width: 100%;
+  height: 35px;
+  background-color: #0C0C0C;
+ 
+}
 
-  .select {
-    position: absolute;
-    margin-left: 50rem;
-    margin-top: -3.1rem;
-    width: 300px;
-    font-family: "roboto";
-    font-size: 18px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-    border: none;
-    border-radius: 2px;
-    color: rgb(117, 117, 117);
-  }
+.welcome-2 {
+  padding: 2rem 4rem;
+  width: 882px;
+  height: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
 
-  .imgball {
-    position: absolute;
-    top: 550px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
+.inputpok {
+  margin-left: 4rem;
+  width: 500px;
+  height: 49px;
+  font-size: 18px;
+  padding: 0rem 1rem;
+
+}
+
+.btn-primary {
+  width: 200px;
+  height: 50px;
+  font-family: "roboto";
+  font-weight: 500px;
+  font-size: 18px;
+
+}
+
+.select {
+  position: absolute;
+  margin-left: 50rem;
+  margin-top: -3.1rem;
+  width: 300px;
+  font-family: "roboto";
+  font-size: 18px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 2px;
+  color: rgb(117, 117, 117);
+}
 
 .initial {
   top: 3rem;
 }
 
- .pokemoncard {
-  
+.pokemoncard {
   display: flex;
   flex-wrap: wrap;
   width: fit-content;
-  padding: 2rem;
+  padding: 0.5rem;
   height: fit-content;
   list-style: none;
-  background-color: rgb(202, 213, 213);
-  border: #10a088;
-  border-style: solid;
   border-radius: 15px;
   margin: 2rem;
   text-align: center;
@@ -194,30 +177,31 @@
 
 
 
- .pokemonimg {
-   width: 200px;
- }
+.pokemonimg {
+  width: 250px;
+  border-style: none;
+}
 
- .pokemoncard1 {
-   display: flex;
- }
+.pokemoncard1 {
+  display: flex;
+}
 
- .pokedex {
-   width: 100%;
-   display: flex;
-   flex-wrap: wrap;
- }
+.pokedex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
- .search-filter {
-   width: 100%;
-   display: flex;
-   flex-wrap: wrap;
- }
+.search-filter {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
- .select {
-   width: 300px;
-   height: 50px;
- }
+.select {
+  width: 300px;
+  height: 50px;
+}
 
 .general {
   display: block;
@@ -226,79 +210,86 @@
 }
 
 .gradient {
-  
+
   position: absolute;
   width: 100%;
   height: 150px;
-  background: linear-gradient(#7ec6c5, #abdac6, #cae099);
+ 
   
+
 }
 
- .detailcard {
-   position: relative;
-   width: 80%;
-   height: auto;
-   background-color: #ffffff;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   box-shadow: 1px 1px 3px 6px rgba(0, 0, 0, 0.15);
-   margin-top: 6rem ;
-   margin-left: 7rem;
-   text-transform:uppercase;
-   
- }
+.detailcard {
+  position: relative;
+  width: 80%;
+  height: auto;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 1px 3px 6px rgba(0, 0, 0, 0.15);
+  margin-top: 6rem;
+  margin-left: 7rem;
+  text-transform: uppercase;
 
- .detailimg {
+}
+
+.detailimg {
   position: relative;
   bottom: 5rem;
 }
- .title {
-  text-transform:capitalize;
+
+.title {
+  text-transform: capitalize;
   font-family: "roboto";
   font-weight: 500;
- }
 
- .properties {
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
-   justify-content: center;
-   gap: 5rem;
-   text-transform:uppercase;
- }
+}
 
- 
- .properties2 {
+.properties {
   display: flex;
-   justify-content: space-between;
-   width: 100%;
-   justify-content: center;
-   gap: 4rem;
-   text-transform:uppercase;
- }
+  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
+  gap: 5rem;
+  text-transform: uppercase;
+  
+}
 
- .weight-height {
-   display: flex;
-   justify-content: center;
-   gap: 2rem;
- }
 
- .one,
- .two,
- .three,
- .four,
- .five,
- .six,
- .seven,
- .eight,
- .nine {
-   border-style: solid;
-   border-color: lightgray;
-   background-color: lightgray;
-   border-radius: 40px;
-   width: 150px;
- }
+.properties2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
+  gap: 4rem;
+  text-transform: uppercase;
+  
+}
+
+.weight-height {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten {
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 40px;
+  width: fit-content;
+  padding: 0rem 1rem;
+  background-color:#E5E5E5 ;
+}
 
 .progress {
   width: 200px;
@@ -323,13 +314,13 @@
 .poison,
 .overgrow,
 .chlorophyll {
- width: auto;
- padding: 0rem 1rem ;
- border-style: solid;
- border-color: #416460;
- color: #416460;
- border-radius: 10px;
- background-color: antiquewhite;
+  width: auto;
+  padding: 0rem 1rem;
+  border-style: solid;
+  border-color: #416460;
+  color: #416460;
+  border-radius: 10px;
+  
 }
 
 .name {
@@ -341,8 +332,50 @@
 
 .stats {
   display: flex;
-
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 25px;
   margin-top: 2rem;
   text-transform: capitalize;
   display: inline-block;
+
+}
+
+.prog1,
+.prog2,
+.prog3,
+.prog4 {
+  font-size: 20px;
+}
+
+.hr {
+  background-color: rgb(202, 213, 213);
+}
+
+.move {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "roboto";
+  font-size: 40px;
+  
+}
+.movements {
+  width: 80%;
+  padding: 2rem;
+  gap: 1rem;
+  height: auto;
+  border-style: none;
+  border-color: #E5E5E5;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 1px 3px 6px rgba(0, 0, 0, 0.15);
+  font-family: "roboto";
+  margin-left: 7rem;
+  text-transform: uppercase;
 }
