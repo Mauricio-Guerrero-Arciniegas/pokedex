@@ -18,15 +18,44 @@ const PokemonCard = ({ pokemonUrl }) => {
         onClick={() => navigate(`/pokemons/${pokemon.name}`)}
       >
         <li>
-          <h3>{pokemon.name}</h3>
-          
-          <hr />
-
           <img
             src={pokemon.sprites?.other["official-artwork"].front_default}
             alt=""
             className="pokemonimg"
           />
+          <div className="title">
+          <h3>{pokemon.name}</h3>
+          <h3>
+            {pokemon.types?.[0].type.name} / {pokemon.types?.[1]?.type.name}
+          </h3>
+          <p>Type</p>
+
+          </div>
+          <hr />
+
+          <div className="properties">
+            <div className="hp">
+              <h4>{pokemon.stats?.[0].stat.name}</h4>
+              <h4>{pokemon.stats?.[0].base_stat}</h4>
+            </div>
+
+            <div className="atack">
+              <h4>{pokemon.stats?.[1].stat.name}</h4>
+              <h4>{pokemon.stats?.[1].base_stat}</h4>
+            </div>
+          </div>
+          <div className="properties2">
+
+            <div className="defense">
+              <h4>{pokemon.stats?.[2].stat.name}</h4>
+              <h4>{pokemon.stats?.[2].base_stat}</h4>
+            </div>
+
+            <div className="speed">
+              <h4>{pokemon.stats?.[5].stat.name}</h4>
+              <h4>{pokemon.stats?.[5].base_stat}</h4>
+            </div>
+          </div>
         </li>
       </div>
     </div>

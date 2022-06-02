@@ -49,7 +49,7 @@ const Pokedex = () => {
       <h1 className="rectangle2-red">.</h1>
       <img
         className="pokedeximg-2"
-        src="https://i.pinimg.com/originals/bd/cd/20/bdcd20f5411ee5785889542d303ad4cb.png" 
+        src="https://i.pinimg.com/originals/bd/cd/20/bdcd20f5411ee5785889542d303ad4cb.png"
         alt=""
         width="200px"
       />
@@ -62,70 +62,63 @@ const Pokedex = () => {
         </p>
       </div>
 
-      
-        <form>
-          <div className="search-box">
-            <input
-              className="inputpok"
-              type="text"
-              value={pokemonSearch}
-              onChange={(e) => setPokemonSearch(e.target.value)}
-              placeholder="Look for a pokemon..."
-            />
-            <button className="btn btn-primary" onClick={search}>
-              Search
-            </button>
-          </div>
-        </form>
+      <form>
+        <div className="search-box">
+          <input
+            className="inputpok"
+            type="text"
+            value={pokemonSearch}
+            onChange={(e) => setPokemonSearch(e.target.value)}
+            placeholder="Look for a pokemon..."
+          />
+          <button className="btn btn-primary" onClick={search}>
+            Search
+          </button>
+        </div>
+      </form>
 
+      <select className="select" onChange={filterPokemons}>
         
-          <select className="select" onChange={filterPokemons}>
-          <option disabled selected>Filter by Type</option>
-            {types.map((type) => (
-              <option value={type.url} key={type.name}>
-                {type.name}{" "}
-                
-              </option>
-            ))}
-          </select>
-      
+        {types.map((type) => (
+          <option value={type.url} key={type.name}>
+            {type.name}{" "}
+          </option>
+        ))}
+      </select>
 
-        <div className="pokedex">
-          {pokemonPaginated?.map((pokemon) => (
-            <PokemonCard
-              pokemonUrl={
-                pokemon.url !== undefined ? pokemon.url : pokemon.pokemon.url
-              }
-              key={
-                pokemon.url !== undefined ? pokemon.url : pokemon.pokemon.url
-              }
-            />
-          ))}
-        </div>
-
-        <div>
-          <button
-            key={setPage}
-            onClick={() => setPage(page - 1)}
-            disabled={page === 1}
-          >
-            Prev
-          </button>
-          {numbers.map((number) => (
-            <button key={number} onClick={() => setPage(number)}>
-              {number}
-            </button>
-          ))}
-          <button
-            key={"nextButton"}
-            onClick={() => setPage(page + 1)}
-            disabled={pokemonPaginated.length < pokemonNumbers}
-          >
-            Next
-          </button>
-        </div>
+      <div className="pokedex">
+        {pokemonPaginated?.map((pokemon) => (
+          <PokemonCard
+            pokemonUrl={
+              pokemon.url !== undefined ? pokemon.url : pokemon.pokemon.url
+            }
+            key={pokemon.url !== undefined ? pokemon.url : pokemon.pokemon.url}
+          />
+        ))}
       </div>
-   
+
+      <div>
+        <button
+          key={setPage}
+          onClick={() => setPage(page - 1)}
+          disabled={page === 1}
+        >
+          Prev
+        </button>
+        {numbers.map((number) => (
+          <button key={number} onClick={() => setPage(number)}>
+            {number}
+          </button>
+        ))}
+        <button
+          key={"nextButton"}
+          onClick={() => setPage(page + 1)}
+          disabled={pokemonPaginated.length < pokemonNumbers}
+        >
+          Next
+        </button>
+      </div>
+    </div>
   );
 };
 
