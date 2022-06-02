@@ -37,9 +37,9 @@ const UserLogin = () => {
           Begin
         </button>
         <footer>
-          <h1 className="rectangle-red"></h1>
+          <div className="rectangle-red"></div>
           {/* <img src={images} alt="" width="200px" /> */}
-          <h1 className="rectangle-black"></h1>
+          <div className="rectangle-black"></div>
         </footer>
       </div>
     </form>
