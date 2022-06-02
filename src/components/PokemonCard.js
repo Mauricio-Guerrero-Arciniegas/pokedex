@@ -8,19 +8,26 @@ const PokemonCard = ({ pokemonUrl }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(pokemonUrl)
-    .then((res) => setPokemon(res.data));
+    axios.get(pokemonUrl).then((res) => setPokemon(res.data));
   }, [pokemonUrl]);
 
-  
-
   return (
-    <div className="pokemoncard2">
-      <div onClick={() => navigate(`/pokemons/${pokemon.name}`)}>
-        <div>
+    <div className="pokemoncard">
+      <div
+        className="card"
+        onClick={() => navigate(`/pokemons/${pokemon.name}`)}
+      >
+        <li>
           <h3>{pokemon.name}</h3>
-          <img src={pokemon.sprites?.front_default} alt="" className=" w-100" />
-        </div>
+          
+          <hr />
+
+          <img
+            src={pokemon.sprites?.other["official-artwork"].front_default}
+            alt=""
+            className="pokemonimg"
+          />
+        </li>
       </div>
     </div>
   );

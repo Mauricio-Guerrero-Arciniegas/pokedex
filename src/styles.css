@@ -95,36 +95,6 @@
     display: flex;
   }
 
-  .circle-1 {
-    position: absolute;
-    margin-left: 45%;
-    top: 555px;
-    width: 70px;
-    height: 70px;
-    border-radius: 150px;
-    background-color: #0C0C0C;
-  }
-
-  .circle-2 {
-    position: absolute;
-    right: 7px;
-    top: -36px;
-    width: 55px;
-    height: 55px;
-    border-radius: 150px;
-    background-color: white;
-  }
-
-  .circle-3 {
-    position: absolute;
-    right: 7px;
-    top: -78px;
-    width: 40px;
-    height: 40px;
-    border-radius: 150px;
-    background-color: #0C0C0C;
-  }
-
   .pokedeximg-2 {
     position: absolute;
     width: 432px;
@@ -138,6 +108,7 @@
     height: 70px;
     background-color: #D93F3F;
     margin: 0;
+    color: #D93F3F;
     
   }
 
@@ -147,6 +118,7 @@
     background-color: #0C0C0C;
     margin: 0;
     display: flex;
+    color: #0C0C0C;
   }
 
   .welcome-2 {
@@ -165,6 +137,7 @@
     height: 49px;
     font-size: 18px;
     padding: 0rem 1rem;
+    
   }
 
   .btn-primary {
@@ -179,7 +152,14 @@
   .select {
     position: absolute;
     margin-left: 50rem;
-    margin-top: 0rem;
+    margin-top: -3.1rem;
+    width: 300px;
+    font-family: "roboto";
+    font-size: 18px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 2px;
+    color: rgb(117, 117, 117);
   }
 
   .imgball {
@@ -190,15 +170,58 @@
     justify-content: center;
   }
 
-  .pokemoncard {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: lightgray;
-    
-    flex-direction: column;
-  }
+ .pokemoncard {
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  padding: 2rem;
+  height: fit-content;
+  list-style: none;
+  background-color: rgb(202, 213, 213);
+  border: #10a088;
+  border-style: solid;
+  border-radius: 15px;
+  margin: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 
-  .ball {
-    position: relative;
-  }
+ }
+
+ .pokemonimg {
+   width: 200px;
+ }
+
+ .pokemoncard1 {
+   display: flex;
+ }
+
+ .pokedex {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .search-filter {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .select {
+   width: 300px;
+   height: 50px;
+ }
+
+ .detailcard {
+   width: 80%;
+   height: 70vh;
+   background-color: #ffffff;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+   margin-top: 4rem ;
+   margin-left: 2rem;
+ }
